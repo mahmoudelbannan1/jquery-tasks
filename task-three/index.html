@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task one</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      aside {
+        padding: 10px;
+        background-color: #eee;
+        width: 300px;
+        height: 100vh;
+        position: relative;
+        left: -270px;
+      }
+
+      .hidden {
+        display: none;
+      }
+      p {
+        background-color: gray;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px 5px;
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <aside>
+      <div class="one">
+        <button onclick="showOne()">one</button>
+        <p class="one hidden">hello one</p>
+      </div>
+      <div class="two">
+        <button onclick="showTwo()">two</button>
+        <p class="two hidden">hello two</p>
+      </div>
+    </aside>
+
+    <script src="../jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

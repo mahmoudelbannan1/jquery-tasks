@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .hidden {
+        display: none;
+      }
+      .container {
+        width: 70%;
+        margin: auto;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      li {
+        list-style: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .active {
+        background-color: #eee;
+      }
+
+      p {
+        padding: 10px;
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li class="one">Tab one</li>
+        <li class="two">Tab two</li>
+        <li class="three">Tab three</li>
+        <li class="four">Tab four</li>
+      </ul>
+
+      <p class="hidden one">Tab one</p>
+      <p class="hidden two">Tab two</p>
+      <p class="hidden three">Tab three</p>
+      <p class="hidden four">Tab four</p>
+    </div>
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/main.js"></script>
+  </body>
+</html>
